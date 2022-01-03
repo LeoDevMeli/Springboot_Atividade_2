@@ -1,4 +1,4 @@
-# Springboot_Atividade_2
+# Obter Diploma
 
 É necessário desenvolver uma API que receba um aluno que contenha o seu "nome",
 e todas as disciplinas aprovadas com "nome" e "nota", é necessário calcular a média
