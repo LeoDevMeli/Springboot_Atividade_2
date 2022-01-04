@@ -17,7 +17,6 @@ public class AlunoController {
     @Autowired
     AlunoService alunoService;
 
-
     @PostMapping("/cadastrarAlunos")
     public ResponseEntity<Aluno> cadastrarAluno(@Valid @RequestBody Aluno aluno, UriComponentsBuilder uriBuilder){
         alunoService.adicionaAluno(aluno);
